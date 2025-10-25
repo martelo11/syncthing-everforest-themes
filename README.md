@@ -4,6 +4,8 @@ A set of **Everforest Dark** themes for [Syncthing](https://syncthing.net/)
 Beautiful, calm, and consistent color schemes inspired by nature 🌿
 Supports **Dark Medium**, **Dark Soft**, and **Dark Hard** variants.
 
+You may read the Syncthing Guide on [Changing the GUI Theme](https://docs.syncthing.net/users/faq.html#i-don-t-like-the-gui-or-the-theme-can-it-be-changed) first.
+
 ---
 
 ## 🎨 Preview

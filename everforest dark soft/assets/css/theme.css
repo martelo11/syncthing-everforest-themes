@@ -1,0 +1,279 @@
+/* Everforest Dark-Soft for Syncthing (Bootstrap-based UI)
+   Place at: <STGUIASSETS>/everforest dark soft/assets/css/theme.css
+   Folder name "everforest dark soft" becomes the Theme name in GUI.
+*/
+
+/* ---------- Core palette as CSS variables ---------- */
+:root {
+  --ef-fg: #D3C6AA;
+  --ef-fg-muted: #859289;
+
+  --ef-bg0: #2D353B;  /* base (soft) */
+  --ef-bg1: #343F44;  /* panels/cards */
+  --ef-bg2: #3D484D;  /* headers/navbar */
+  --ef-bg3: #475258;  /* input fields, stripes */
+  --ef-bg4: #4F585E;  /* borders/dividers */
+  --ef-bg5: #56635F;  /* popup nav bg */
+  --ef-bg6: #232A2E;  /* dim background visual */
+
+  --ef-red:    #E67E80;
+  --ef-orange: #E69875;
+  --ef-yellow: #DBBC7F;
+  --ef-green:  #A7C080;
+  --ef-blue:   #7FBBB3;
+  --ef-aqua:   #83C092;
+  --ef-purple: #D699B6;
+
+  --ef-link:   #7FBBB3;
+  --ef-link-h: #83C092;
+  --ef-focus:  #A7C080;
+}
+
+/* ---------- Global ---------- */
+html, body {
+  background: var(--ef-bg0) !important;
+  color: var(--ef-fg) !important;
+}
+a, .btn-link {
+  color: var(--ef-link) !important;
+}
+a:hover, a:focus, .btn-link:hover, .btn-link:focus {
+  color: var(--ef-link-h) !important;
+  text-decoration: none;
+}
+hr, .table > thead > tr > th, .table > tbody > tr > td {
+  border-color: var(--ef-bg4) !important;
+}
+h1 { color: var(--ef-orange) !important; }
+h2, h3 { color: var(--ef-yellow) !important; }
+
+/* Scrollbars (Chromium/Firefox) */
+* { scrollbar-color: var(--ef-bg4) var(--ef-bg1); }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-thumb { background: var(--ef-bg4); }
+::-webkit-scrollbar-track { background: var(--ef-bg1); }
+
+/* ---------- Navbar / footer ---------- */
+.navbar, .navbar-inverse, .navbar-default {
+  background: var(--ef-bg2) !important;
+  border-color: var(--ef-bg4) !important;
+}
+.navbar .navbar-brand, .navbar a, .navbar .navbar-text {
+  color: var(--ef-purple) !important;
+}
+.footer, .footer a {
+  background: var(--ef-bg2) !important;
+  color: var(--ef-fg-muted) !important;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: var(--ef-bg1) !important;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: var(--ef-bg4) !important;
+}
+
+/* ---------- Dropdown Menu ---------- */
+.dropdown-menu {
+  border-color: var(--ef-bg1) !important;
+  background-color: var(--ef-bg1) !important;
+}
+.navbar-text, .dropdown > a, .dropdown-menu > li > a,
+.hidden-xs > a, .navbar-link {
+  border-color: var(--ef-bg2) !important;
+}
+.dropdown-menu > li > a:hover {
+  background: var(--ef-bg5) !important;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background: var(--ef-bg5) !important;
+}
+.nav-tabs { border-bottom: 1px solid var(--ef-bg5) !important; }
+.nav-tabs > li > a:hover {
+  background: var(--ef-bg4) !important;
+  border: none;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: 2px 2px 0 0;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background-color: var(--ef-bg5) !important;
+  border: 1px solid var(--ef-bg5) !important;
+}
+
+/* ---------- Panels / cards ---------- */
+.panel, .panel-default, .panel-info, .panel-primary,
+.panel-success, .panel-danger, .panel-warning {
+  background: var(--ef-bg1) !important;
+  border-color: var(--ef-bg4) !important;
+  color: var(--ef-fg) !important;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: var(--ef-bg1) !important;
+}
+.panel-heading, .panel-title {
+  background: var(--ef-bg2) !important;
+  border-color: var(--ef-bg4) !important;
+  color: var(--ef-fg) !important;
+}
+.panel-footer { background: var(--ef-bg1) !important; }
+
+/* ---------- Tables ---------- */
+.table {
+  background: var(--ef-bg1) !important;
+  color: var(--ef-fg) !important;
+}
+.table > thead > tr { background: var(--ef-bg2) !important; }
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: var(--ef-bg3) !important;
+}
+
+/* ---------- Forms / inputs ---------- */
+.form-control, .input-sm, select, textarea, input {
+  background: var(--ef-bg3) !important;
+  color: var(--ef-fg) !important;
+  border-color: var(--ef-bg4) !important;
+}
+.form-control:focus {
+  border-color: var(--ef-focus) !important;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--ef-focus) 35%, transparent) !important;
+  outline: none;
+}
+.input-group-addon {
+  background: var(--ef-bg2) !important;
+  border-color: var(--ef-bg4) !important;
+  color: var(--ef-fg) !important;
+}
+
+/* ---------- Buttons ---------- */
+.btn { border-color: var(--ef-bg4) !important; }
+.btn:hover, .btn:focus, .btn.focus { outline: none !important; }
+.btn-default {
+  background: var(--ef-bg2) !important;
+  color: var(--ef-fg) !important;
+}
+.btn-primary {
+  background: var(--ef-blue) !important;
+  color: #1A1C1A !important;
+  border-color: color-mix(in srgb, var(--ef-blue) 60%, black);
+}
+.btn-success {
+  background: var(--ef-green) !important;
+  color: #1A1C1A !important;
+}
+.btn-warning {
+  background: var(--ef-orange) !important;
+  color: #1A1C1A !important;
+}
+.btn-danger {
+  background: var(--ef-red) !important;
+  color: #1A1C1A !important;
+}
+.btn-info {
+  background: var(--ef-aqua) !important;
+  color: #1A1C1A !important;
+}
+.btn:hover, .btn:focus { filter: brightness(1.05); }
+
+/* ---------- Labels / badges ---------- */
+.label, .badge {
+  background: var(--ef-bg2) !important;
+  color: var(--ef-fg) !important;
+  border: 1px solid var(--ef-bg4) !important;
+}
+.label-info, .badge-info {
+  background: var(--ef-blue) !important;
+  color: #1A1C1A !important;
+}
+.label-success, .badge-success {
+  background: var(--ef-green) !important;
+  color: #1A1C1A !important;
+}
+.label-warning, .badge-warning {
+  background: var(--ef-yellow) !important;
+  color: #1A1C1A !important;
+}
+.label-danger, .badge-danger {
+  background: var(--ef-red) !important;
+  color: #1A1C1A !important;
+}
+.identicon, .inline-icon { fill: var(--ef-fg) !important; }
+.reception {
+  filter: invert(89%) sepia(7%) saturate(306%) hue-rotate(9deg) brightness(92%) contrast(85%);
+}
+
+/* ---------- Alerts ---------- */
+.alert {
+  background: var(--ef-bg2) !important;
+  color: var(--ef-fg) !important;
+  border-color: var(--ef-bg4) !important;
+}
+.alert-info { border-left: 4px solid var(--ef-blue) !important; }
+.alert-success { border-left: 4px solid var(--ef-green) !important; }
+.alert-warning { border-left: 4px solid var(--ef-yellow) !important; }
+.alert-danger { border-left: 4px solid var(--ef-red) !important; }
+
+/* ---------- Progress bars ---------- */
+.progress { background: var(--ef-bg3) !important; }
+.progress-bar { background: var(--ef-blue) !important; }
+.progress-bar-success { background: var(--ef-green) !important; }
+.progress-bar-warning {
+  background: var(--ef-yellow) !important;
+  color: #1A1C1A !important;
+}
+.progress-bar-danger { background: var(--ef-red) !important; }
+
+/* ---------- Modals ---------- */
+.modal-content {
+  background: var(--ef-bg1) !important;
+  color: var(--ef-fg) !important;
+  border: 1px solid var(--ef-bg4) !important;
+}
+.modal-header, .modal-footer {
+  background: var(--ef-bg2) !important;
+  border-color: var(--ef-bg4) !important;
+}
+
+/* ---------- Misc UI bits in Syncthing ---------- */
+/* device/folder cards & list groups */
+.list-group-item {
+  background: var(--ef-bg1) !important;
+  color: var(--ef-fg) !important;
+  border-color: var(--ef-bg4) !important;
+}
+.table > tbody > tr:hover, .list-group-item:hover {
+  background: var(--ef-bg3) !important;
+}
+.well {
+  background: var(--ef-bg5) !important;
+  border-color: var(--ef-bg4) !important;
+}
+
+/* status colors (peers, states) */
+.text-success { color: var(--ef-green) !important; }
+.text-info { color: var(--ef-aqua) !important; }
+.text-warning { color: var(--ef-yellow) !important; }
+.text-danger { color: var(--ef-red) !important; }
+
+/* tooltips */
+.tooltip-inner {
+  background: var(--ef-bg2) !important;
+  color: var(--ef-fg) !important;
+}
+.tooltip .tooltip-arrow { border-top-color: var(--ef-bg2) !important; }
+
+/* selection */
+::selection {
+  background: color-mix(in srgb, var(--ef-green) 35%, transparent);
+  color: var(--ef-bg0);
+}

@@ -10,11 +10,11 @@ You may read the Syncthing Guide on [Changing the GUI Theme](https://docs.syncth
 
 ## 🎨 Preview
 
-| Variant | Base | Description |
-|----------|------|--------------|
-| **Everforest Dark Medium** | `#272E33` | Balanced and natural |
-| **Everforest Dark Soft** | `#2D353B` | Slightly lighter, warmer |
-| **Everforest Dark Hard** | `#1E2326` | Higher contrast, deeper shadows |
+| Variant | Base | Description | Preview |
+|----------|------|--------------|--------------|
+| **Everforest Dark Medium** | `#272E33` | Balanced and natural | ![Medium](docs/screenshots/syncthing-everforest-medium.png) |
+| **Everforest Dark Soft** | `#2D353B` | Slightly lighter, warmer | ![Soft](docs/screenshots/syncthing-everforest-soft.png) |
+| **Everforest Dark Hard** | `#1E2326` | Higher contrast, deeper shadows | ![Hard](docs/screenshots/syncthing-everforest-hard.png) |
 
 ---
 

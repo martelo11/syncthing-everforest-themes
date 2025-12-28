@@ -10,8 +10,8 @@ You may read the Syncthing Guide on [Changing the GUI Theme](https://docs.syncth
 
 | Variant | Preview |
 |----------|--------------|
-| **Everforest Dark Medium** | ![Medium](docs/screenshots/syncthing-everforest-medium.png) |
 | **Everforest Dark Soft** | ![Soft](docs/screenshots/syncthing-everforest-soft.png) |
+| **Everforest Dark Medium** | ![Medium](docs/screenshots/syncthing-everforest-medium.png) |
 | **Everforest Dark Hard** | ![Hard](docs/screenshots/syncthing-everforest-hard.png) |
 
 ---

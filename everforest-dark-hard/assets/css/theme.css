@@ -8,13 +8,13 @@
   --ef-fg: #D3C6AA;
   --ef-fg-muted: #859289;
 
-  --ef-bg0: #1E2326;  /* base (hard) */
-  --ef-bg1: #272E33;  /* panels/cards */
-  --ef-bg2: #2E383C;  /* headers/navbar */
-  --ef-bg3: #374145;  /* input fields, stripes */
-  --ef-bg4: #414B50;  /* borders/dividers */
-  --ef-bg5: #495156;  /* popup nav bg */
-  --ef-bg6: #141A1F;  /* dim background visual */
+  --ef-bg0: #272E33;  /* base (hard) */
+  --ef-bg1: #2E383C;  /* panels/cards */
+  --ef-bg2: #374145;  /* headers/navbar */
+  --ef-bg3: #414B50;  /* input fields, stripes */
+  --ef-bg4: #495156;  /* borders/dividers */
+  --ef-bg5: #4F5B58;  /* popup nav bg */
+  --ef-bg6: #1E2326;  /* dim background visual */
 
   --ef-red:    #E67E80;
   --ef-orange: #E69875;

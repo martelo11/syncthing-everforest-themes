@@ -1,8 +1,6 @@
-# 🌲 Everforest Dark Themes for Syncthing UI
+# 🌲 Everforest Dark Themes for Syncthing WebGUI
 
-A set of **Everforest Dark** themes for [Syncthing](https://syncthing.net/)
-Beautiful, calm, and consistent color schemes inspired by nature 🌿
-Supports **Dark Medium**, **Dark Soft**, and **Dark Hard** variants.
+A set of **Everforest Dark** themes for [Syncthing WebGui](https://syncthing.net/) using the **Dark Medium**, **Dark Soft**, and **Dark Hard** color variants.
 
 You may read the Syncthing Guide on [Changing the GUI Theme](https://docs.syncthing.net/users/faq.html#i-don-t-like-the-gui-or-the-theme-can-it-be-changed) first.
 
@@ -10,11 +8,11 @@ You may read the Syncthing Guide on [Changing the GUI Theme](https://docs.syncth
 
 ## 🎨 Preview
 
-| Variant | Base | Description | Preview |
-|----------|------|--------------|--------------|
-| **Everforest Dark Medium** | `#272E33` | Balanced and natural | ![Medium](docs/screenshots/syncthing-everforest-medium.png) |
-| **Everforest Dark Soft** | `#2D353B` | Slightly lighter, warmer | ![Soft](docs/screenshots/syncthing-everforest-soft.png) |
-| **Everforest Dark Hard** | `#1E2326` | Higher contrast, deeper shadows | ![Hard](docs/screenshots/syncthing-everforest-hard.png) |
+| Variant | Preview |
+|----------|--------------|
+| **Everforest Dark Medium** | ![Medium](docs/screenshots/syncthing-everforest-medium.png) |
+| **Everforest Dark Soft** | ![Soft](docs/screenshots/syncthing-everforest-soft.png) |
+| **Everforest Dark Hard** | ![Hard](docs/screenshots/syncthing-everforest-hard.png) |
 
 ---
 

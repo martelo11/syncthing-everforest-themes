@@ -8,13 +8,13 @@
   --ef-fg: #D3C6AA;
   --ef-fg-muted: #859289;
 
-  --ef-bg0: #272E33;  /* base */
-  --ef-bg1: #2E383C;  /* panels/cards */
-  --ef-bg2: #374145;  /* headers/navbar */
-  --ef-bg3: #414B50;  /* input fields, stripes */
-  --ef-bg4: #495156;  /* borders/dividers */
-  --ef-bg5: #3D484D;  /* popup nav bg */
-  --ef-bg6: #4C3743;  /* bg visual */
+  --ef-bg0: #2D353B;  /* base */
+  --ef-bg1: #343F44;  /* panels/cards */
+  --ef-bg2: #3D484D;  /* headers/navbar */
+  --ef-bg3: #475258;  /* input fields, stripes */
+  --ef-bg4: #4F585E;  /* borders/dividers */
+  --ef-bg5: #56635f;  /* popup nav bg */
+  --ef-bg6: #232A2E;  /* bg visual */
 
   --ef-red:    #E67E80;
   --ef-orange: #E69875;
